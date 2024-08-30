@@ -7,6 +7,7 @@ title: Piotr Krzekotowski
 * 🌱 learning in public: full-stack + AI + product.
 * 📈 sharing journey from 0 to 1 (tech career).
 * 📬 check out my substack [Neon Circuits](https://neoncircuits.substack.com/)
+*
 
 
 * Previous notable work or achievements
@@ -16,3 +17,6 @@ title: Piotr Krzekotowski
   * Example 3
 * Previous roles or accomplishments
 * [your-website.com](https://your-website.com)
+
+📈 sharing journey from 0 to 1 (tech career)
+📬 substack: Neon Circuits
