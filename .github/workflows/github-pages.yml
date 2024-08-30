@@ -14,10 +14,14 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Specify a version that meets your needs, e.g., '3.1', '3.2', etc.
-          bundler-cache: true  # This will install dependencies using the Gemfile.lock
+          ruby-version: '3.1'
+          bundler-cache: true
 
-      - name: Build and deploy
-        uses: helaili/jekyll-action@v2
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
