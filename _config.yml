@@ -20,8 +20,7 @@
 
 title: Piotr Krzekotowski
 email: pk@pkrzekotowski.com
-description: >- # this means to ignore newlines until "baseurl:"
-I'm Piotr Krzekotowski - 👨‍💻 ex-marketer breaking into tech | 🌱 learning in public (full-stack + AI + product) | 📈 sharing journey from 0 to 1 (tech career)
+description: I'm Piotr Krzekotowski - 👨‍💻 ex-marketer breaking into tech | 🌱 learning in public (full-stack + AI + product) | 📈 sharing journey from 0 to 1 (tech career)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: @krzekotowskip
