@@ -15,11 +15,13 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # You can adjust this to match your local Ruby version
-          bundler-cache: true  # This will install dependencies using the Gemfile.lock
+          ruby-version: '3.1'
+          bundler-cache: true
 
       - name: Update Bundler
         run: |
+          bundle config --local deployment false
+          bundle config --local frozen false
           gem install bundler
           bundle update --bundler
 
@@ -34,5 +36,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          # If you're using a custom domain, uncomment the next line and replace with your domain
-          # cname: yourdomain.com
