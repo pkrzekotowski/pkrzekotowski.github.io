@@ -20,16 +20,19 @@
 
 title: Piotr Krzekotowski
 email: pk@pkrzekotowski.com
-description: I'm Piotr Krzekotowski - 👨‍💻 ex-marketer breaking into tech | 🌱 learning in public (full-stack + AI + product) | 📈 sharing journey from 0 to 1 (tech career)
+description: 👨‍💻 ex-marketer breaking into tech | 🌱 learning in public (full-stack + AI + product) | 📈 sharing journey from 0 to 1 (tech career)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pkrzekotowski.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@krzekotowskip"
 github_username:  pkrzekotowski
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -38,8 +41,7 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
+#exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
